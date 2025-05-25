@@ -1,0 +1,40 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+
+}
+
+
+#navlist{
+    display: flex;
+    list-style-type:none;
+    flex-wrap: nowrap;
+    gap: 30px;
+
+    justify-content: center;
+    align-items: center;
+
+}
+ #applelogo{
+    width: 30px;
+
+ }
+ .navbutton{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    
+          
+
+ }
+ .navbutton>img{
+    width: 50px;
+ }
+#search{
+    margin-right: -20px;
+}
+#navbag{
+    width: 43px;
+}
