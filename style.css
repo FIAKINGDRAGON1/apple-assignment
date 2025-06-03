@@ -2,8 +2,7 @@ body{
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
-
-
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;;
 }
 
 
@@ -37,4 +36,153 @@ body{
 }
 #navbag{
     width: 43px;
+}
+
+  /* iphone img */
+#firstimg{
+    width: 100%;
+text-align: center;
+background-color:lightcyan;
+}
+
+#firstimg>h1{
+    font-size: 60px;
+}
+
+#firstimg>p{
+    padding-top:10px;
+    font-size: 20px;
+    
+}
+
+
+#learnmore{
+background-color: blue;
+color: white;
+padding: 10px;
+ border-radius: 50px;
+ border-color:blue;
+}
+#shop{
+    padding: 10px;
+    background-color: lightcyan;
+    border-color: blue;
+    margin-left:10px ;
+     border-radius: 50px;
+}
+
+#shop:hover{
+    background-color: blue;
+    color: white;
+    
+}
+
+#firstimg>img{
+
+    size: contain;
+    width: 80%;
+    margin-top: -250px;
+}
+/* watch img */
+#secondimg{
+    width: 100%;
+    text-align: center;
+    background-color: lightcyan;
+    margin-bottom: 60px;
+    margin-top: 15px;
+    
+}
+#appleimg2{
+    width: 40px;
+    height:40px;
+    margin-left: -200px;
+    margin-top: 20px;
+}
+#txt-1{
+    font-size: 50px;
+    margin-top: -50px;
+    margin-left: -10px;
+}
+#secondimg>h2{
+    margin-right:40px; 
+}
+#secondimg>h3{
+    margin-right: 40px;
+}
+#learnmore2{ 
+background-color: blue;
+color: white;
+padding: 10px;
+margin-right: 10px;
+border-color:blue;
+ border-radius: 50px;
+}
+#buy{
+    padding: 10px;
+    background-color: lightcyan;
+    border-color: blue;
+  
+     border-radius: 50px;
+     width: 90px;
+     margin-right: 50px;
+}
+
+#buy:hover{
+    background-color: blue;
+    color: white;
+}    
+#watch{
+    margin-top: -38px;
+}
+/* macbook */
+#thirdimg{
+    background-color: #daecf7;
+    text-align: center;
+    margin-top: -40px;
+    
+}
+#macbookimg{
+    width: 650px;
+    height: 650px;
+    margin-top: -50px;
+}
+#macbooktxt{
+font-size: 49px;
+padding-top: 30px;
+
+}
+#learnmore3{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+    border-color:blue;
+    /* margin-left: -20px; */
+
+
+}
+
+#buy2{
+     padding: 10px;
+     background-color: #daecf7 ;
+     border-color: blue;
+     margin-left:12px ;
+     border-radius: 50px;
+        width: 90px;
+        margin-top: 13px;
+}
+#buy2:hover{
+    background-color: blue;
+    color: white;
+}
+#footer{
+    display: flex;
+    background-color: lightslategray;
+    justify-content: space-around;
+    
+    
+}
+.lastul{
+    list-style: none;   
+
 }
